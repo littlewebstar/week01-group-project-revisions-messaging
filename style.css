@@ -24,6 +24,16 @@ input {
 }
 
 /* Buttons */
+.button-myArchives {
+	padding: 0.25em 0.5em;
+	border: none;
+	border-radius: 2px;
+	border: 2px solid red;
+	background: #4491db;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
 .button {
 	padding: 0.25em 0.5em;
 	border: none;
@@ -63,6 +73,15 @@ input {
 	background: #fff;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }
+.message--self {
+	margin: 1rem 3rem 1rem 8rem;
+	padding: 0.5rem;
+	font-size: 14px;
+	line-height: 1.8em;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
 
 .message__author {
 	font-size: 12px;
@@ -83,6 +102,12 @@ input {
 /* Input area to add a new message */
 .add-message {
 	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(255,255,255,0.9);
+	background:white;
+	
 }
 
 .add-message__input {
@@ -91,4 +116,5 @@ input {
 	border-radius: 2px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 	background: #fff;
+	
 }
