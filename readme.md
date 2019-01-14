@@ -5,7 +5,7 @@ This repository is part of CodeYourFuture's [group projects](https://github.com/
 
 You work in a small development team responsible for the internal messaging features of a large social network. Following user testing, your team leader has requested that a few changes be made to the application.
 
-![Screenshot of requested changes](https://raw.githubusercontent.com/CodeYourFuture/group-projects/master/revisions-messaging/requested-revisions.png)
+![Screenshot of requested changes](requested-revisions.png)
 
 ## First Steps
 
