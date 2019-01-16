@@ -102,12 +102,16 @@ input {
 /* Input area to add a new message */
 .add-message {
 	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(255,255,255,0.9);
+	background:white;
 }
 
 .add-message__input {
-	padding: 0.25em 0.5em;
-	border: none;
 	border-radius: 2px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 	background: #fff;
+	width: 100%;
 }
